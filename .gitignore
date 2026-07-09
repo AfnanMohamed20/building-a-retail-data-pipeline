@@ -1,0 +1,8 @@
+*.bak
+__pycache__/
+build_log*.txt
+*.log
+logs/
+docker - Copy
+Dockerfile - Copy
+docker-compose - Copy.yaml
