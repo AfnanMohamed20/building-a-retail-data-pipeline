@@ -88,7 +88,7 @@ dow_full    = dow_orders.set_index("dow").reindex(["Monday","Tuesday","Wednesday
 print("Done. Starting app...")
 
 def kpi_card(icon,title,value,subtitle,color):
-    return html.Div([
+    return  html.Div([
         html.Div([
             html.Div(icon,style={"fontSize":"1.8rem","background":f"linear-gradient(135deg,{color},{color}88)","borderRadius":"12px","width":"52px","height":"52px","display":"flex","alignItems":"center","justifyContent":"center","boxShadow":f"0 4px 20px {color}44","flexShrink":"0"}),
             html.Div([
